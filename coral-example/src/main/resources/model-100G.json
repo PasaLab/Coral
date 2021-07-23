@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "defaultSchema": "clickhouse",
+  "schemas": [
+    {
+      "name": "postgres",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "operand": {
+        "jdbcUrl": "jdbc:postgresql://simple31:5432/tpc_100",
+        "jdbcUser": "postgres",
+        "jdbcPassword": ""
+      }
+    },
+    {
+      "name": "clickhouse",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "operand": {
+        "jdbcUrl": "jdbc:clickhouse://simple31:8123",
+        "jdbcUser": "default",
+        "jdbcPassword": "",
+        "jdbcSchema": "tpch_100"
+      }
+    },
+    {
+      "name": "memsql",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "operand": {
+        "jdbcUrl": "jdbc:mysql://simple31:3309",
+        "jdbcUser": "root",
+        "jdbcPassword": "",
+        "jdbcCatalog": "tpc_100"
+      }
+    }
+  ]
+}
