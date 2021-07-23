@@ -65,3 +65,48 @@ In our experimental environment, the JDBC ports of MemSQL, ClickHouse, and Postg
    ```
 
 6. Run queries in the sqlline command line
+
+# Configuration
+
+Coral use the configuration in model.json to connect to the data engines. An example of model.json is  is given below.
+
+```
+{
+  "version": "1.0",
+  "defaultSchema": "clickhouse",
+  "schemas": [
+    {
+      "name": "postgres",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "operand": {
+        "jdbcUrl": "jdbc:postgresql://manager-node:5432/tpc_10",
+        "jdbcUser": "postgres",
+        "jdbcPassword": ""
+      }
+    },
+    {
+      "name": "clickhouse",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "operand": {
+        "jdbcUrl": "jdbc:clickhouse://manager-node:8123",
+        "jdbcUser": "default",
+        "jdbcPassword": "",
+        "jdbcSchema": "tpch_10"
+      }
+    },
+    {
+      "name": "memsql",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.jdbc.JdbcSchema$Factory",
+      "operand": {
+        "jdbcUrl": "jdbc:mysql://manager-node:3309",
+        "jdbcUser": "root",
+        "jdbcPassword": "",
+        "jdbcCatalog": "tpc_10"
+      }
+    }
+  ]
+}
+```
