@@ -1,0 +1,121 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Calcite Server
+
+
+From: 'an unknown organization'
+  - Esri Geometry API for Java (https://github.com/Esri/geometry-api-java) com.esri.geometry:esri-geometry-api:jar:2.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:19.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - project ':json-path' (https://github.com/jayway/JsonPath) com.jayway.jsonpath:json-path:jar:2.4.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Java Native Access (https://github.com/java-native-access/jna) net.java.dev.jna:jna:jar:4.2.2
+    License: LGPL, version 2.1  (http://www.gnu.org/licenses/licenses.html)    License: ASL, version 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - commons-compiler (http://janino-compiler.github.io/commons-compiler/) org.codehaus.janino:commons-compiler:jar:3.0.11
+    License: New BSD License  (https://raw.githubusercontent.com/janino-compiler/janino/master/LICENSE)
+  - janino (http://janino-compiler.github.io/janino/) org.codehaus.janino:janino:jar:3.0.11
+    License: New BSD License  (https://raw.githubusercontent.com/janino-compiler/janino/master/LICENSE)
+  - JLine Builtins (http://nexus.sonatype.org/oss-repository-hosting.html/jline-parent/jline-builtins) org.jline:jline-builtins:jar:3.10.0
+    License: The BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+  - JLine Reader (http://nexus.sonatype.org/oss-repository-hosting.html/jline-parent/jline-reader) org.jline:jline-reader:jar:3.10.0
+    License: The BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+  - JLine Terminal (http://nexus.sonatype.org/oss-repository-hosting.html/jline-parent/jline-terminal) org.jline:jline-terminal:jar:3.10.0
+    License: The BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+  - JLine JANSI Terminal (http://nexus.sonatype.org/oss-repository-hosting.html/jline-parent/jline-terminal-jansi) org.jline:jline-terminal-jansi:jar:3.10.0
+    License: The BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+  - JLine JNA Terminal (http://nexus.sonatype.org/oss-repository-hosting.html/jline-parent/jline-terminal-jna) org.jline:jline-terminal-jna:jar:3.10.0
+    License: The BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+  - SnakeYAML (http://www.snakeyaml.org) org.yaml:snakeyaml:bundle:1.23
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.9.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.9.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.9.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-dataformat-YAML (https://github.com/FasterXML/jackson-dataformats-text) com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:bundle:2.9.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FuseSource, Corp.' (http://fusesource.com/)
+  - jansi (http://fusesource.github.io/jansi/jansi) org.fusesource.jansi:jansi:jar:1.17.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'GlassFish Community' (https://javaee.github.io)
+  - Java Servlet API (https://javaee.github.io/servlet-spec/) javax.servlet:javax.servlet-api:jar:4.0.1
+    License: CDDL + GPLv2 with classpath exception  (https://oss.oracle.com/licenses/CDDL+GPL-1.1)
+
+From: 'Google' (http://www.google.com/)
+  - Protocol Buffers [Core] (https://developers.google.com/protocol-buffers/protobuf-java/) com.google.protobuf:protobuf-java:bundle:3.6.1
+    License: 3-Clause BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+
+From: 'Julian Hyde' (http://www.hydromatic.net)
+  - Aggregate Designer Algorithm (http://github.com/julianhyde/aggdesigner/aggdesigner-algorithm) net.hydromatic:aggdesigner-algorithm:jar:6.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Julian Hyde' (https://github.com/julianhyde)
+  - sqlline (https://github.com/julianhyde/sqlline) sqlline:sqlline:jar:1.8.0
+    License: Modified BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.25
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Lang (http://commons.apache.org/lang/) commons-lang:commons-lang:jar:2.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.6
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.10
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org)
+  - Apache Calcite Avatica (https://calcite.apache.org/avatica/avatica-core) org.apache.calcite.avatica:avatica-core:jar:1.15.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Apache Calcite Avatica Metrics (https://calcite.apache.org/avatica/avatica-metrics) org.apache.calcite.avatica:avatica-metrics:jar:1.15.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Apache Calcite Avatica Server (https://calcite.apache.org/avatica/avatica-server) org.apache.calcite.avatica:avatica-server:jar:1.15.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.12
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Calcite Core (https://calcite.apache.org/calcite-core) org.apache.calcite:calcite-core:jar:1.21.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Calcite Linq4j (https://calcite.apache.org/calcite-linq4j) org.apache.calcite:calcite-linq4j:jar:1.21.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons DBCP (http://commons.apache.org/dbcp/) org.apache.commons:commons-dbcp2:jar:2.6.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Lang (http://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.8
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Pool (http://commons.apache.org/proper/commons-pool/) org.apache.commons:commons-pool2:jar:2.6.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Webtide' (https://webtide.com)
+  - Jetty :: Http Utility (http://www.eclipse.org/jetty) org.eclipse.jetty:jetty-http:jar:9.4.15.v20190215
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: IO Utility (http://www.eclipse.org/jetty) org.eclipse.jetty:jetty-io:jar:9.4.15.v20190215
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Security (http://www.eclipse.org/jetty) org.eclipse.jetty:jetty-security:jar:9.4.15.v20190215
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Server Core (http://www.eclipse.org/jetty) org.eclipse.jetty:jetty-server:jar:9.4.11.v20180605
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Jetty :: Utilities (http://www.eclipse.org/jetty) org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+
+From: 'Yahoo! Inc.' (https://www.yahoo.com)
+  - com.yahoo.datasketches:memory (https://datasketches.github.io/memory/) com.yahoo.datasketches:memory:jar:0.9.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - com.yahoo.datasketches:sketches-core (https://datasketches.github.io/sketches-core/) com.yahoo.datasketches:sketches-core:jar:0.9.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

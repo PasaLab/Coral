@@ -1,0 +1,5 @@
+org\apache\calcite\test\ServerQuidemTest$1.class
+org\apache\calcite\test\ServerUnParserTest.class
+org\apache\calcite\test\ServerQuidemTest.class
+org\apache\calcite\test\ServerTest.class
+org\apache\calcite\test\ServerParserTest.class

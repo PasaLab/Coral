@@ -1,0 +1,13 @@
+org\apache\calcite\sql\babel\Babel.class
+org\apache\calcite\sql\parser\babel\SqlBabelParserImpl$1.class
+org\apache\calcite\sql\parser\babel\SqlBabelParserImpl$LookaheadSuccess.class
+org\apache\calcite\sql\parser\babel\Token.class
+org\apache\calcite\sql\parser\babel\ParseException.class
+org\apache\calcite\sql\parser\babel\SqlBabelParserImpl$2.class
+org\apache\calcite\sql\parser\babel\SqlBabelParserImplConstants.class
+org\apache\calcite\sql\parser\babel\SqlBabelParserImplTokenManager.class
+org\apache\calcite\sql\parser\babel\TokenMgrError.class
+org\apache\calcite\sql\parser\babel\SqlBabelParserImpl$JJCalls.class
+org\apache\calcite\sql\babel\package-info.class
+org\apache\calcite\sql\parser\babel\SimpleCharStream.class
+org\apache\calcite\sql\parser\babel\SqlBabelParserImpl.class

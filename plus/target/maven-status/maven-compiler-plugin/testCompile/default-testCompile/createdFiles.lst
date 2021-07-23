@@ -1,0 +1,8 @@
+org\apache\calcite\adapter\os\OsAdapterTest.class
+org\apache\calcite\test\PlusSuite.class
+org\apache\calcite\chinook\EndToEndTest.class
+org\apache\calcite\chinook\RemotePreparedStatementParametersTest.class
+org\apache\calcite\materialize\TpcdsLatticeSuggesterTest.class
+org\apache\calcite\adapter\tpch\TpchTest.class
+org\apache\calcite\materialize\TpcdsLatticeSuggesterTest$Tester.class
+org\apache\calcite\adapter\tpcds\TpcdsTest.class
