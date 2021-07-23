@@ -110,3 +110,13 @@ Coral use the configuration in model.json to connect to the data engines. An exa
   ]
 }
 ```
+
+# Demo
+
+A demo video of Coral running federated queries is available on this [link](https://www.bilibili.com/video/BV1UU4y1t7wb/).
+
+# Copyright
+
+The code is available for research purpose only.
+
+For commercial usage, please contact PASA Lab @ Nanjing University.
